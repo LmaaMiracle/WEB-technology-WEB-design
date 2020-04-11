@@ -1,0 +1,27 @@
+div {
+    height: 50px;
+}
+
+.right {
+    float: right;
+    width: 50%;
+}
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+.bottom {
+    float: bottom;
+    text-align: center;
+}
+
+.fixedButton {
+    position: fixed;
+    width: 150px;
+    height: 20px;
+    line-height: 40px;
+    bottom: 15%;
+    right: 50%;
+}

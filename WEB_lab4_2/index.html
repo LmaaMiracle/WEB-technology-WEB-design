@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My web site</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="left">
+    <p><b>Website name: </b><label>
+        <input type="text" name="website_name">
+    </label></p>
+
+    <p><b>Website link: </b><label>
+        <input type="text" name="website_link"
+               pattern="[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)"
+               title="Enter valid website link">
+    </label></p>
+
+    <p><b>Legal or individual person:</b></p>
+    <p><label>
+        <input type="radio" name="person" value="Legal person">
+    </label>Legal person</p>
+    <p><label>
+        <input type="radio" name="person" value="Individual person">
+    </label>Individual person</p>
+
+    <p><b>Contact info: </b><label>
+        <input type="text" name="website_contact_info">
+        <input type="text" name="website_contact_info" onemptied="true">
+    </label></p>
+
+    <p><b>E-mail: </b><label>
+        <input type="email" name="website_email_info">
+    </label></p>
+
+
+    <p><b>Выберите страну:</b></p>     <label>
+    <select name="country">
+        <option value="ukraine">Ukraine</option>
+        <option value="russia">Russia</option>
+        <option value="usa">USA</option>
+        <option value="england">England</option>
+        <option value="france">France</option>
+        <option value="netherlands">Netherlands</option>
+        <option value="italy">Italy</option>
+        <option value="spain">Spain</option>
+        <option value="other">Other</option>
+    </select>
+</label>
+
+    <p><b>Выберите город:</b></p>
+    <p><label>
+        <input type="radio" , name="city">
+    </label>Kiev</p>
+    <p><label>
+        <input type="radio" , name="city">
+    </label>Moscow</p>
+    <p><label>
+        <input type="radio" , name="city">
+    </label>Washington</p>
+    <p><label>
+        <input type="radio" , name="city">
+    </label>London</p>
+    <p><label>
+        <input type="radio" , name="city">
+    </label>Paris</p>
+    <p><label>
+        <input type="radio" , name="city">
+    </label>Amsterdam</p>
+    <p><label>
+        <input type="radio" , name="city">
+    </label>Rome</p>
+    <p><label>
+        <input type="radio" , name="city">
+    </label>Madrid</p>
+    <p><label>
+        <input type="radio" , name="other">
+    </label>Other</p>
+</div>
+
+<div class="right">
+    <p><b>Выберите язык:</b></p>
+    <p><label>
+        <input type="checkbox" , name="language">
+    </label>Ukrainian</p>
+    <p><label>
+        <input type="checkbox" , name="language">
+    </label>Russian</p>
+    <p><label>
+        <input type="checkbox" , name="language">
+    </label>English</p>
+    <p><label>
+        <input type="checkbox" , name="language">
+    </label>French</p>
+    <p><label>
+        <input type="checkbox" , name="language">
+    </label>Dutch</p>
+    <p><label>
+        <input type="checkbox" , name="language">
+    </label>Italian</p>
+    <p><label>
+        <input type="checkbox" , name="language">
+    </label>Spanish</p>
+    <p><label>
+        <input type="checkbox" , name="language">
+    </label>Others</p>
+
+    <p><b>Choose theme of the site</b></p>
+    <label>
+        <select size="11" required multiple name="theme">
+            <option value="education">Education</option>
+            <option value="entertainment">Entertainment</option>
+            <option value="it">IT</option>
+            <option value="forum">Forum</option>
+            <option value="women's_site">Site for women</option>
+            <option value="men's_site">Site for men</option>
+            <option value="computers">Computers</option>
+            <option value="music">Music</option>
+            <option value="pictures">Pictures</option>
+            <option value="smoking">Smoking</option>
+            <option value="other">Other</option>
+        </select>
+    </label>
+
+    <p><b>Password: </b><label>
+        <input type="password" required name="password" size="30" maxlength="16">
+    </label></p>
+
+    <p><b>Additional info:</b></p>
+    <label>
+        <textarea name="additional_info" rows="7" cols="50"></textarea>
+    </label>
+
+    <input type="hidden" name="student" value="Aleksandr">
+</div>
+
+<div class="fixedButton">
+    <form>
+        <input id="submit_button" type="submit" value="Submit all choices">
+        <input id="reset_button" type="reset" value="Clear all choices">
+    </form>
+</div>
+</body>
+</html>
