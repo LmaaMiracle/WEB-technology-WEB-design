@@ -1,0 +1,62 @@
+.leftImg {
+    float: left; /* Выравнивание по левому краю */
+    margin: 20px 8px 8px 0; /* Отступы вокруг картинки */
+}
+
+.fontForFooter {
+    font-weight: initial;
+    font-family: "Source Sans Pro", serif;
+    font-size: 150%;
+    color: white;
+}
+
+.linkedInFont {
+    font-weight: initial;
+    font-family: "Source Sans Pro", serif;
+    font-size: 150%;
+    color: rgb(10, 102, 194);
+}
+
+.fullWrap {
+    border: 3px solid black;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+.wrap {
+    display: flex;
+    border: 2px solid black;
+    padding: 25px;
+    height: 500px;
+    background-color: rgb(10, 102, 194);
+}
+
+.headerBorder {
+    border: 2px dashed black;
+    padding: 2px;
+    background-color: white;
+}
+
+.footerBorder {
+    height: 185px;
+    border: 2px solid black;
+    padding: 2px;
+    background-color: white;
+}
+
+.main {
+    border: 2px solid black;
+    margin: 2px;
+    padding: 10px;
+    width: 70%;
+    background-color: whitesmoke;
+}
+
+.sideBar {
+    width: 28%;
+    border: 2px solid black;
+    margin: 2px;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
