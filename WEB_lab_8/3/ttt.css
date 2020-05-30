@@ -1,0 +1,55 @@
+h1 {
+	text-align: center;
+}
+.time {
+	text-align: center;
+}
+.wrapper {
+	display: flex;
+	justify-content: space-around;
+}
+.field {
+	height: 200px;
+	width: 200px;
+	background-color: rgb(172, 141, 141);
+}
+.row {
+	display: flex;
+	justify-content: space-around;
+}
+.row:first-child {
+	border-bottom: 3px solid black;
+}
+.row:last-child {
+	border-top: 3px solid black;
+}
+.row > .field:first-child {
+	border-right: 3px solid black;
+}
+.row > .field:last-child {
+	border-left: 3px solid black;
+}
+.field {
+	font-size: 170px;
+	text-align: center;
+}
+.ended {
+	width: 100%;
+	position: absolute;
+	top: calc(50% - 15vh);
+	left: 0;
+	text-align: center;
+	font-size: 20vh;
+}
+.user_won {
+	background-color: rgba(0, 255, 42, 0.4);
+}
+.bot_won {
+	background-color: rgba(255, 0, 0, 0.4);
+}
+.nobody_won {
+	background-color: rgba(155, 155, 155, 0.4);
+}
+.hidden {
+	display: none;
+}

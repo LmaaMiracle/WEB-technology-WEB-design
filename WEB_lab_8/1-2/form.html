@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Form</title>
+</head>
+<body>
+    <form action="" id="theForm">
+        <h2>Input your personal data</h2>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <label for="organization">Organization:</label>
+            <input type="text" id="organization" name="organization">
+        </div>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="text" id="email" name="email">
+        </div>
+        <div>
+            <label for="phone">Phone number:</label>
+            <input type="text"  id="phone" name="phone">
+        </div>
+        <input type="submit" value="Send" id="submit_btn">
+    </form> 
+    <div class="errors"></div>
+    <script src="form.js"></script>
+</body>
+</html>
